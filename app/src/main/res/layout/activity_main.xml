@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kumar.addingtwostrings.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="43dp"
+        android:id="@+id/e1"
+        android:hint="Enter The First Number" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/e2"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/e1"
+        android:layout_alignStart="@+id/e1"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="18dp"
+        android:hint="Enter the Second number" />
+
+    <Button
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/e3"
+        android:layout_alignLeft="@+id/e3"
+        android:layout_alignStart="@+id/e3"
+        android:onClick="btn"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/e3"
+        android:layout_below="@+id/e2"
+        android:layout_alignLeft="@+id/e2"
+        android:layout_alignStart="@+id/e2"
+        android:hint="Result view" />
+
+</LinearLayout>
